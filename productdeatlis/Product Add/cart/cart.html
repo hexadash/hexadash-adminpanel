@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cart</title>
+        <link rel="stylesheet" href="cart.css">
+
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link
+         href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,500;1,500&family=Poppins:ital,wght@1,200&display=swap"
+         rel="stylesheet">
+    </head>
+    <body>
+
+<!-------------------- Header -------------------->
+<header>
+
+    <!----- Logo ----->
+    <div class="header-left">
+        <img src="./header-images/logo-dark.png" alt>
+    </div>
+ 
+    <!----- Navbar Options ----->
+    <div class="header-right">
+        <nav>
+            <ul>
+                <!----- Search ----->
+                <li><img src="./header-images/search-outline.svg" alt></li>
+                
+                <!----- Mail ----->
+                <li>
+                    <img src="./header-images/mail-outline.svg" alt>
+                    <ul>
+                        <li id="mail">
+                            <div class="messages-li">
+                                <h4>Messages</h4>
+                                <div class="messages-alert">2</div>
+                            </div>
+                        </li>
+                        <li id="mail">
+                            <div class="messages-details">
+                                <p id="messages-hrs">3 hrs ago</p>
+                                <div class="dot">1</div>
+                            </div>
+                            <div class="messages-img">
+                                <img src="./header-images/team-1.png" alt="">
+                            </div>
+                            <div class="messages-description">
+                                <h4>Web Design</h4>
+                                <p>Lorm ipsum dolor amet coesc Lo...</p>
+                            </div>
+                            
+                        </li>
+                        <li id="mail">
+                            <div class="messages-details">
+                                <p id="messages-hrs">3 hrs ago</p>
+                                <div class="dot">1</div>
+                            </div>
+                            <div class="messages-img">
+                                <img src="./header-images/team-1.png" alt="">
+                            </div>
+                            <div class="messages-description">
+                                <h4>Web Design</h4>
+                                <p>Lorm ipsum dolor amet coesc Lo...</p>
+                            </div>
+                        </li>
+                        <li id="mail">
+                            <div class="messages-details">
+                                <p id="messages-hrs">3 hrs ago</p>
+                                <div class="dot">1</div>
+                            </div>
+                            <div class="messages-img">
+                                <img src="./header-images/team-1.png" alt="">
+                            </div>
+                            <div class="messages-description">
+                                <h4>Web Design</h4>
+                                <p>Lorm ipsum dolor amet coesc Lo...</p>
+                            </div>
+                        </li>
+                        <li id="mail">
+                            <div class="messages-details">
+                                <p class="no-alert">3 hrs ago</p>
+                            </div>
+                            <div class="messages-img">
+                                <img src="./header-images/team-1.png" alt="">
+                            </div>
+                            <div class="messages-description">
+                                <h4>Web Design</h4>
+                                <p>Lorm ipsum dolor amet coesc Lo...</p>
+                            </div>
+                        </li>
+                        <li id="mail">
+                            <div class="messages-details">
+                                <p class="no-alert">3 hrs ago</p>
+                            </div>
+                            <div class="messages-img">
+                                <img src="./header-images/team-1.png" alt="">
+                            </div>
+                            <div class="messages-description">
+                                <h4>Web Design</h4>
+                                <p>Lorm ipsum dolor amet coesc Lo...</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="see-all">
+                                See all messages
+                            </div>
+                        </li>
+                    </ul>
+                
+                
+                </li>
+                
+                <!----- Notifications ----->
+                <li>   
+                    <img src="./header-images/notifications-outline.svg"
+                        alt>
+                    <ul>
+                        <li>
+                            <div class="notifications-li">
+                                <h4>Notifications</h4>
+                                <div class="notifi-alert">4</div>
+                            </div>
+                        </li>
+                        <li id="notif">
+                            <div class="notifi-img" style="background-color: rgb(226, 194, 255);">
+                                <img id="profile-icons" src="./header-images/file-tray-outline.svg" alt="">
+                            </div>
+ 
+                            <div class="notifi-description">
+                                <p><span>Jams</span> sent you a message</p>
+                                <p>5 hours ago</p>
+                            </div>
+                        </li>
+                        <li id="notif">
+                            <div class="notifi-img" style="background-color: rgb(190, 195, 255);">
+                                <img id="profile-icons" src="./header-images/enter-outline.svg" alt="">
+                            </div>
+                            <div class="notifi-description">
+                                <p><span>Jams</span> sent you a message</p>
+                                <p>5 hours ago</p>
+                            </div>
+                        </li>
+                           
+                        <li id="notif">
+                            <div class="notifi-img" style="background-color: rgb(228, 249, 196);">
+                                <img id="profile-icons" src="./header-images/push-outline.svg" alt="">
+                            </div>
+                            <div class="notifi-description">
+                                <p><span>Jams</span> sent you a message</p>
+                                <p>5 hours ago</p>
+                            </div>
+                        </li>
+                            
+                        <li id="notif">
+                            <div class="notifi-img" style="background-color: rgb(193, 243, 255);">
+                                <img id="profile-icons" src="./header-images/at-outline.svg" alt="">
+                            </div>
+                            <div class="notifi-description">
+                                <p><span>Jams</span> sent you a message</p>
+                                <p>5 hours ago</p>
+                            </div>
+                        </li>
+                            
+                        <li>
+                            <div class="see-all">
+                                See all incoming activity
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+ 
+                <!----- Settings ----->
+                <li>
+                    <img src="./header-images/settings-outline.svg" alt>
+                    <ul>
+                        <!-- Left Settings  -->
+                        <div class="settings-left">
+                            <li id="setting">
+                                <div class="setting-img">
+                                    <img src="./header-images/mail.png" alt="">
+                                </div>
+                                <div class="setting-description">
+                                    <h4>All Features</h4>
+                                    <p>Introducing Increment subscriptions</p>
+                                </div>
+                            </li>
+                            <li id="setting">
+                                <div class="setting-img">
+                                    <img src="./header-images/home.png" alt="">
+                                </div>
+                                <div class="setting-description">
+                                    <h4>Payments</h4>
+                                    <p>We handle billions of dollars</p>
+                                </div>
+                            </li>
+                            <li id="setting">
+                                <div class="setting-img">
+                                    <img src="./header-images/document.png" alt="">
+                                </div>
+                                <div class="setting-description">
+                                
+                                    <h4>Content Planner</h4>
+                                    <p>centralize content gethering and editing</p>
+                                </div>
+                            </li>
+                        </div>
+ 
+                        <!-- Right Settings -->
+                        <div class="settings-right">
+                            <li id="setting">
+                                <div class="setting-img">
+                                    <img src="./header-images/color-palette.png" alt="">
+                                </div>
+                                <div class="setting-description">
+                                    <h4>Themes</h4>
+                                    <p>Third party themes that are compatible</p>
+                                </div>
+                            </li>
+                            <li id="setting">
+                                <div class="setting-img">
+                                    <img src="./header-images/video-camera.png" alt="">
+                                </div>
+                                <div class="setting-description">
+                                    <h4>Designer Mockups</h4>
+                                    <p>Share planning visuals with clients</p>
+                                </div>
+                            </li>
+                            <li id="setting">
+                                <div class="setting-img">
+                                    <img src="./header-images/microphone.png" alt="">
+                                </div>
+                                <div class="setting-description">
+                                    <h4>Diagram Maker</h4>
+                                    <p>Plan user flows and test scenarios</p>
+                                </div>
+                            </li>
+                        </div>
+                        
+                    </ul>
+                </li>
+ 
+                <!----- Flags ----->
+                <li>
+                    <img src="./header-images/flag.png" alt>
+                    <ul>
+                        <li id="flag"><img src="./header-images/eng.png" alt=""> English</li>
+                        <li id="flag"><img src="./header-images/ger.png" alt=""> German</li>
+                        <li id="flag"><img src="./header-images/spa.png" alt=""> Spanish</li>
+                        <li id="flag"><img src="./header-images/tur.png" alt=""> Turkish</li>
+                        <li id="flag"><img src="./header-images/iraq.png" style="width: 20px; height:20px;" alt=""> Arabic</li>
+                    </ul>
+                </li>
+ 
+                <!----- Profile ----->
+                <li>
+                    <div class="profile-li">
+                        <img id="profile-img" src="./header-images/author-nav.jpg" alt>
+                        Danial 
+                        <img id="chevron-down"src="./header-images/chevron-down-outline.svg"alt>
+                    </div>
+ 
+                    <ul>
+                        <li>
+                            <div class="profile-details">
+                                <div class="profile-img">
+                                    <img id="profile-img" src="./header-images/author-nav.jpg" alt>
+                                </div>
+ 
+                                <div class="profile-description">
+                                    <h4>Rabbi Islam Rony</h4>
+                                    <p>UI Designer</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li id="prof"><a id="prof-a" href=""><img id="profile-icons" src="./header-images/person-outline.svg" alt=""> Profile</a></li>
+                        <li id="prof"><a id="prof-a" href=""><img id="profile-icons" src="./header-images/settings-outline.svg" alt=""> Settings</a></li>
+                        <li id="prof"><a id="prof-a" href=""><img id="profile-icons" src="./header-images/key-outline.svg" alt=""> Billing</a></li>
+                        <li id="prof"><a id="prof-a" href=""><img id="profile-icons" src="./header-images/people-outline.svg" alt=""> Activity</a> </li>
+                        <li id="prof"><a id="prof-a" href=""><img id="profile-icons" src="./header-images/notifications-outline.svg" alt=""> Help</a></li>
+                        <li>
+                            <div class="sign-out">
+ 
+                                <img id="profile-icons" src="./header-images/log-in-outline.svg" alt="">
+                                <a href="">Sign Out</a>
+                    
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+ </header>
+ 
+ 
+ 
+ 
+ <!-- end-header -->
+
+
+
+
+
+
+
+ <!-- start-footer -->
+<footer>
+    <div class="footer-left">
+ 
+        <p>2023 <span>Sovware</span></p>
+        
+ 
+ 
+    </div>
+    <div class="footer-right">
+        <a href="">About</a>
+        <a href="">Team</a>
+        <a href="">Contact</a>
+    </div>
+ </footer>
+ 
+ <!-- end-footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- start-menu -->
+
+<div class="menu">
+    <div class="contaner-menu">
+       <div class="menu-item">
+
+          <!-- part-1 -->
+
+          <div class="part-1">
+
+             <ul>
+                <li><img src="menu-image/apps.svg" alt>Dashboard</li>
+                <li><img src="menu-image/web-grid-alt.svg" alt>Layouts</li>
+                <li><img src="menu-image/arrow-growth.svg" alt>Changelog</li>
+
+             </ul>
+
+          </div>
+          <!-- part-2 -->
+
+          <div class="part-2">
+
+             <span id="app">Applications</span>
+
+             <ul>
+                <li><img src="menu-image/envelope.svg" alt>Email</li>
+                <li><img src="menu-image/chat.svg" alt>Chat</li>
+                <li><img src="menu-image/bag-alt.svg" alt>eCommerce
+
+                   <ul class="active">
+                      <li><a href="#">Products</a></li>
+                      <li class="active-1"><a href="#">Product Deatlis</a></li>
+                      <li><a href="Product Add/index.html">Products Add</a></li>
+                      <li class="active-6"><a href="#">Cart</a></li>
+                      <li><a href="Orders/orders.html">Orders</a></li>
+                      <li><a href="">Sellers</a></li>
+                      <li><a href="">Invoices</a></li>
+                   </ul>
+
+                   <li><img src="menu-image/folder.svg" alt>Project</li>
+                   <li><img src="menu-image/calendar-alt.svg" alt>Calendar</li>
+                   <li><img src="menu-image/users-alt.svg" alt>Users</li>
+                   <li><img src="menu-image/at.svg" alt>Contact</li>
+                   <li><img src="menu-image/notes.svg" alt>Note</li>
+                   <li><img src="menu-image/check-square.svg" alt>To-Do</li>
+                   <li><img src="menu-image/expand-arrows.svg" alt>Kanban
+                      Board</li>
+                   <li><img src="menu-image/exchange.svg" alt>Import &
+                      Export</li>
+                   <li><img src="menu-image/file-blank.svg" alt>File
+                      Manager</li>
+                   <li><img src="menu-image/lightbulb-alt.svg" alt>Task App</li>
+                   <li><img src="menu-image/bookmark.svg" alt>Bookmarks</li>
+                   <li><img src="menu-image/apps.svg" alt>Social App</li>
+                   <li><img src="menu-image/books.svg" alt>Learning App</li>
+                   <li><img src="menu-image/user.svg" alt>Support</li>
+                   <li><img src="menu-image/search.svg" alt>JobSearch</li>
+                   <li><img src="menu-image/table.svg" alt>Table</li>
+
+                </li>
+
+             </ul>
+
+          </div>
+          <!-- part-3 -->
+          <div class="part-3">
+             <span>CRUD</span>
+
+             <ul>
+                <li><img src="menu-image/database.svg" alt>Firestore Crud</li>
+             </ul>
+
+             <!-- part-4 -->
+
+             <span>Features</span>
+
+             <ul>
+                <li><img src="menu-image/layers.svg" alt>UI Elements</li>
+                <li><img src="menu-image/chart.svg" alt>Charts</li>
+                <li><img src="menu-image/keyhole-circle.svg" alt>Froms</li>
+                <li><img src="menu-image/server.svg" alt>Widget</li>
+                <li><img src="menu-image/square.svg" alt>Icons</li>
+                <li><img src="menu-image/edit-alt.svg" alt>Editors</li>
+                <li><img src="menu-image/map.svg" alt>Maps</li>
+
+             </ul>
+          </div>
+          <!-- part-5 -->
+          <div class="part-5">
+             <span>Pages</span>
+
+             <ul>
+
+                <li><img src="menu-image/images.svg" alt>Gallery</li>
+                <li><img src="menu-image/bill.svg" alt>Pricing</li>
+                <li><img src="menu-image/thumbs-up.svg" alt>Banners</li>
+                <li><img src="menu-image/book-open.svg" alt>Testimonial</li>
+                <li><img src="menu-image/question-circle.svg" alt>FAQ's</li>
+                <li><img src="menu-image/credit-card-search.svg" alt>Search
+                   Results</li>
+                <li><img src="menu-image/circle.svg" alt>Blank Page</li>
+                <li><img src="menu-image/window.svg" alt>Knowledge Base</li>
+                <li><img src="menu-image/headphones.svg" alt>Support Center</li>
+                <li><img src="menu-image/images.svg" alt>Blog</li>
+                <li><img src="menu-image/question-circle.svg" alt>Terms &
+                   Conditions</li>
+                <li><img src="menu-image/exclamation-triangle.svg" alt>404</li>
+                <li><img src="menu-image/sync.svg" alt>Coming Soon</li>
+                <li><img src="menu-image/signin.svg" alt>Log In</li>
+                <li><img src="menu-image/sign-out-alt.svg" alt>Sign Up</li>
+
+             </ul>
+          </div>
+
+       </div>
+    </div>
+ </div>
+
+ <!-- end-menu -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!---------- First Section ---------->
+        <div class="first-section">
+
+            <!-- First Section Left -->
+            <div class="first-section-left">
+                <h3>Product Cart</h3>
+            </div>
+
+            <!-- First Section Rigt -->
+            <div class="first-section-right">
+                <p><span>eCommerce</span></p>
+                <div class="dot"></div>
+                <p>Product Cart</p>
+            </div>
+        </div>
+
+        <!---------- Second Section ---------->
+        <div class="container">
+
+            <div class="second-section">
+
+                <!-- Second Section Left -->
+                <div class="second-section-left">
+
+                    <!-- Table -->
+                    <div class="second-section-table">
+
+                        <table>
+                            <tr>
+                                <th>
+                                    <h4>Product</h4>
+                                </th>
+                                <th>
+                                    Price
+                                </th>
+                                <th>
+                                    Quantity
+                                </th>
+                                <th>
+                                    Total
+                                </th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="tb-img">
+                                        <img src="./cart-images/cart1.png" alt>
+                                    </div>
+                                    <div class="tb-details">
+                                        <h4>Fiber Base Chair</h4>
+                                        <p><span>Size:</span> Large &nbsp; &nbsp; <span>Color:</span>
+                                            Brown</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <p>$248.66</p>
+                                </td>
+                                <td>
+                                    <div class="quantity">
+                                        <button id="number">-</button>
+                                        1
+                                        <button id="number">+</button>
+                                    </div>
+                                </td>
+                                <td>
+                                    <p id="price">$5.11</p>
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="tb-img">
+                                        <img src="./cart-images/cart2.png" alt>
+                                    </div>
+                                    <div class="tb-details">
+                                        <h4>Fiber Base Chair</h4>
+                                        <p><span>Size:</span> Large &nbsp; <span>Color:</span>
+                                            Brown</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <p>$248.66</p>
+                                </td>
+                                <td>
+                                    <div class="quantity">
+                                        <button id="number">-</button>
+                                        1
+                                        <button id="number">+</button>
+                                    </div>
+                                </td>
+                                <td>
+                                    <p id="price">$5.11</p>
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="tb-img">
+                                        <img src="./cart-images/cart3.png" alt>
+                                    </div>
+                                    <div class="tb-details">
+                                        <h4>Fiber Base Chair</h4>
+                                        <p><span>Size:</span> Large &nbsp; &nbsp; <span>Color:</span>
+                                            Brown</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <p>$248.66</p>
+                                </td>
+                                <td>
+                                    <div class="quantity">
+                                        <button id="number">-</button>
+                                        1
+                                        <button id="number">+</button>
+                                    </div>
+                                </td>
+                                <td>
+                                    <p id="price">$5.11</p>
+                                </td>
+
+                            </tr>
+                        </table>
+
+                        <!-- Second Section Left Bottom -->
+                        <div class="second-section-bottom">
+                            <input id="coupon-input" type="text" placeholder="Coupon code">
+                            <button id="coupon-btn">Apply Coupon</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Second Section Right -->
+                <div class="second-section-right">
+
+                    <h4>Order Summery</h4>
+
+                    <!-- Details -->
+                    <div class="right-section-details">
+
+                        <!-- Right Top -->
+                        <div class="right-section-top">
+                            <pre>Subtotal:           $1,690.26</pre>
+                            <pre>Discount:            -$126.30</pre>
+                            <pre>Shipping Change:       $46.30</pre>
+                        </div>
+
+                        <!-- Right Middle -->
+                        <div class="right-section-middle">
+
+                            <img id="icon" src="./cart-images/ticket-outline.svg" alt="">
+                            <form action="">
+                                <select name="codes" id="">
+                                    <option value="">HROJSF</option>
+                                    <option value="">RYZZWK</option>
+                                    <option value="">CLMVBG</option>
+                                    <option value="">RQAEAD</option>
+                                    <option value="">DFINSX</option>
+                                </select>
+                            </form>
+
+                            <label for="promo-code">Promo Code</label><br>
+                            <input id="code-input" type="text" name="" >
+                            <button id="promo-btn">Apply</button>
+                        </div>
+
+                        <!-- Right Bottom -->
+                        <div class="right-section-bottom">
+
+                            <pre><span>Total:</span>               <span style="color: blueviolet;">$1738.60</span></pre>
+
+                            <button id="checkout-btn">Procdces To Checkout</button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </body>
+</html>
