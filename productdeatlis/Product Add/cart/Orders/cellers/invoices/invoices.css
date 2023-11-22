@@ -292,7 +292,7 @@ header span{
 }
 
 .messages-description{
-    display: block;
+    display: inline-block;
     line-height: 2px;
 }
 
